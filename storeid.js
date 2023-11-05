@@ -132,6 +132,22 @@ function id8() {
 }
 
 function id9() {
+  new WinBox({
+    title: "Word Game",
+    class: "eclipsemono",
+    x: "center",
+    y: "center",
+    width: "27%",
+    height: "70%",
+    top: 0,
+    right: 0,
+    bottom: 45,
+    left: 0,
+    url: "https://wordgame.davidstudios.uk/?src=envy&iframe=true",
+  });
+}
+
+function id9() {
   let appName = "Maps (Beta)",
     appIcon = "https://static.vecteezy.com/system/resources/previews/016/716/478/original/google-maps-icon-free-png.png";
 
